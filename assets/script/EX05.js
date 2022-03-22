@@ -10,7 +10,7 @@ function howmany() {
 function colorChanger(chosenColor) {
     let color = chosenColor.value.toLowerCase();
     document.body.style.backgroundColor = color;
-};
+}
 
 //ex5d
 
