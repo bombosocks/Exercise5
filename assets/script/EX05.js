@@ -7,14 +7,12 @@ function howmany() {
     alert("Total inputs: " + regformDiv.getElementsByTagName('input').length + ", Total text: " + countText);
 }
 //ex5c 
-function colorChanger(chosenColor) {
-    let color = chosenColor.value.toLowerCase();
-    document.body.style.backgroundColor = color;
+function colorChanger() {
+    var myVar = document.getElementById('mySelect').value;
+    document.getElementById("color").style.backgroundColor = myVar;
 }
 
 //ex5d
 
 
 //ex5e
-let text = document.querySelector("#changeText")
-text.innerHTML = "I have changed!"
