@@ -4,26 +4,34 @@
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale1.0">
         <meta charset="utf-8">
-        <title>Jacob Schneider Assignment 04</title>
+        <title>Jacob Schneider Assignment 05</title>
+		<link rel="sytlesheet" type="text/css" href="./assets/css/EX05.css"/>
 	</head>
 
 	<body>
 		<div>
-			<h2>JavaScript Exercise 4a </h2> 
+			<h2>JavaScript Exercise 5a </h2> 
 			<p id="text">This style of this paragraph will change when you click the button below.</p>
 		</div>
 		<div>
 			<button id="styleMe" onclick="jsStyle()">Change Style</button>
 		</div>
 
-		<h2>JavaScript Exercise 4b </h2> 
-		<form id="regForm">
-			First name: <input type="text" id="fname" value="Boo"><br>
-			Last name: <input type="text" id="lname" value="Radley"><br>
-			<input type="button" onclick="getFormValues();" value="Submit">
-		</form>
+		<h2>JavaScript Exercise 5b </h2> 
+		<div>
+			<p class="exerTitle">JavaScript 5b</p>
+			<form id="regForm">
+				<input type="text" id="fname" placeholder="boo"><br>
+				<input type="text" id="lname" placeholder="Radley"><br>
+				<input type="checkbox" id="dog">I have a dog. (Check if you do)<br>
+				<input type="text" id="major" placeholder="major"><br>
+				<input type="button" onclick="howmany();" value="Count of inputs">
+			</form>
+		</div>
+		<hr>
 
-		<h2>JavaScript Exercise 4c</h2> 
+
+		<h2>JavaScript Exercise 5c</h2> 
 		<form>
 			<select id="mySelect">
 				<option>Red</option>
@@ -37,14 +45,14 @@
 		</form>
 
 		<div>
-			<h2>JavaScript Exercise 4d </h2> 
+			<h2>JavaScript Exercise 5d </h2> 
 		</div>
 		<div>
 			<p id="rb" onmouseover="mouseover();" onmouseout="mouseout();">This sentence will turn red when you mouseover it.</p>
 		</div>
 
 		<div>
-			<h2>JavaScript Exercise 4d </h2> 
+			<h2>JavaScript Exercise 5d </h2> 
 		</div>
 		<form>
 			<input type="text" id="firstoperand" placeholder=First Operand"/><br>
@@ -56,5 +64,5 @@
 
 
 	</body>
-	<script src="./assets/script/function.js" type="text/javascript"></script>
+	<script src="./assets/script/EX05.js" type="text/javascript"></script>
 </html>
